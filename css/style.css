@@ -51,3 +51,12 @@ textarea{
     border-bottom: 1px solid #ec0c0c;
     height: 45px;
 }
+
+form-header p {
+    color:black
+    border-bottom: 2px solid #11d6dd;
+    width: 0 auto;
+    text-transform: uppercase;
+    height: 45px;
+    line-height: 45px;
+}
