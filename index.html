@@ -83,28 +83,30 @@
 
                         </ul>
                     </div>
-                    <ul class="listaOpicionais">
                         <li>
                             <input type="checkbox" name="opcional[]" id="assistente-pista" value="assistente-pista"> <label for="assistente-pista">
                                 assistente de pista
                             </label>
                         </li>
 
-                        <li>
-                            <input type="checkbox" name="opcional[]" id="partidaSemChave" value="partidaSemChave">
-                            <label for="partidaSemChave">Partida sem chave</label>
-                        </li>
-
-
-                        <li> <input type="checkbox" name="opcional[]" id="smartphone" value="smartphone">
-                            <label for="smartphone">Integração com  Celular</label>
-                        </li>
-
-
-                        <li> <input type="checkbox" name="opcional[]" id="banco-couro" value="banco-couro">
-                            <label for="banco-couro">Banco de Couro</label>
-                        </li>
-                    </ul>
+                    <div class="caixaOpicional">
+                        <ul class="listaOpicionais">
+                            <li>
+                                <input type="checkbox" name="opcional[]" id="partidaSemChave" value="partidaSemChave">
+                                <label for="partidaSemChave">Partida sem chave</label>
+                            </li>
+                            <li> <input type="checkbox" name="opcional[]" id="smartphone" value="smartphone">
+                                <label for="smartphone">Integração com  Celular</label>
+                            </li>
+                            <li> <input type="checkbox" name="opcional[]" id="banco-couro" value="banco-couro">
+                                <label for="banco-couro">Banco de Couro</label>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="caixaImputs">
+                        <p>fotos do carro <span class="campoObrigatorio">*</span></p>
+                        <input type="file" name="imagem" id="imagem" multiple accept="image/png, image/jpg" required>
+                    </div>
                 </form>
             </div>
         </div>
