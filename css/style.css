@@ -52,7 +52,7 @@ textarea{
     height: 45px;
 }
 
-form-header p {
+.form-header p {
     color:black
     border-bottom: 2px solid #11d6dd;
     width: 0 auto;
@@ -79,4 +79,8 @@ form-header p {
 
 .caixaInputs{
     margin-bottom: 35px;
+}
+
+.block{
+     display: block;
 }
