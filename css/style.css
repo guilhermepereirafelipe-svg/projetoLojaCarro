@@ -47,3 +47,7 @@ textarea{
     position: relative;
     top: -46px;
 }
+.fom-header {
+    border-bottom: 1px solid #ec0c0c;
+    height: 45px;
+}
