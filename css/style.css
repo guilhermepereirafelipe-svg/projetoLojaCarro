@@ -53,7 +53,7 @@ textarea{
 }
 
 .form-header p {
-    color:black
+    color:black;
     border-bottom: 2px solid #11d6dd;
     width: 0 auto;
     text-transform: uppercase;
