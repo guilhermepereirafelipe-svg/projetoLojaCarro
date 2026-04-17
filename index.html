@@ -3,10 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Loja de carro</title>
-    <link rel="stylesheet" href="css/style.css"
+    <title>Venda seu carro</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
+    <div class="container">
+        <header class="cabecalho">
+            <h3>Cadastre seu veículo para vender mais rápido</h3>
+        </header>
+        <div class="form-container">
+            <div class="form-header">
+                <p>Formulário</p>
+            </div>
+            <div class="form-body">
+                <h1 class="form-titulo">Venda fácil seu carro</h1>
+                <p>Descreva as características do seu carro e marque os opcionais que ele possui</p>
+                <form>
+                    <div class="caixaInputs">
+                        <label for="title">Título do anúncio <span class="campo-obrigatorio">*</span></label>
+                        <input type="text" name="title" id="title" class="block" placeholder="Digite um título" minlength="1" maxlength="30" required>
+                    </div>
+
+                    <div class="caixaInputs">
+                        <label for="preco">Preço <span class="campo-obrigatorio">*</span></label>
+                        <input type="number" name="preco" id="preco" class="block" placeholder="Digite o preço" required>
+                    </div>
+
+                    <div class="caixaInputs">
+                        <label for="descricao">Descrição</label>
+                        <textarea name="descricao" id="descricao" class="block" placeholder="Faça a descrição do seu veículo aqui"></textarea>
+                    </div>
+
+                    <div class="caixaInputs">
+                        <label for="marca">Marca <span class="campo-obrigatorio">*</span></label>
+                        <input type="text" name="marca" id="marca" class="block" placeholder="Digite a marca" required>
+                    </div>
+
+                    <div class="caixaInputs">
+                        <label for="modelo">Modelo <span class="campo-obrigatorio">*</span></label>
+                        <input type="text" name="modelo" id="modelo" class="block" placeholder="Digite o modelo" required>
+                    </div>
+
+                    <div class="caixaInputs">
+                        <label for="kilometragem">Kilometragem <span class="campo-obrigatorio">*</span></label>
+                        <input type="number" name="kilometragem" id="kilometragem" class="block" placeholder="Digite a kilimetragem" required>
+                    </div>
+
+                    <div class="caixaInputs">
+                        <label for="data-compra">Data de Compra <span class="campo-obrigatorio">*</span></label>
+                        <input type="date" name="data-compra" id="data-compra" class="block" required>
+                    </div>
+
+                    <div class="caixaInputs">
+                        <p>Tipo de Câmbio: <span class="campo-obrigatorio">*</span></p>
+                        <input type="radio" name="marcha" id="manual">
+                        <label for="manual">Manual</label>
+                        <input type="radio" name="marcha" id="auto">
+                        <label for="auto">Automático</label>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
+
+
+
