@@ -85,3 +85,29 @@ textarea{
      display: block;
 }
 
+.caixaOpicinal {
+    display: inline-block;
+    margin: 0 30px 0 30px;
+}
+
+.listaOpicinais li { 
+    list-style: nome;
+margin-bottom: 5px;
+}
+
+.btm-submit {
+    background-color: #ec0c0c;
+    color: #ccc;
+    border: 2px solid transparent;
+    width: 150px;
+    height: 50px;
+    cursor:pointer;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.btn-submit:hover {
+    background-color: rgb(10, 158, 158);
+    color: blueviolet;
+    borde-color: #bd0606;
+}
