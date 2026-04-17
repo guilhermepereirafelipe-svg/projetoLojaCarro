@@ -39,3 +39,11 @@ textarea{
     color:rgb(230, 11, 182);
     margin-top: 0;
 }
+
+.form-container {
+    background-color: #ccc;
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+    top: -46px;
+}
