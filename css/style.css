@@ -25,3 +25,17 @@ input {
 input[type="text"], input[type="number"], input[type="date"], input[type="file"], textarea {
     width: 400px;
 }
+
+textarea{
+    padding: 10px 5 px
+}
+.cabecalho { 
+    height: 160px;
+    padding:20px; 
+    background-color: rgb(128, 16, 233);
+}
+
+.cabecalho h3 {
+    color:rgb(255, 255, 255)
+margin-top: 0;
+}
